@@ -1,0 +1,27 @@
+@doc "Represents a product, service or trade item that is available on the market"
+defmodule Thing do
+  defstruct id:, upc:, name:, packaging: nil, brand: nil, manufacturer: nil, gpc: nil, gtin: nil
+
+  @doc "Provides a list of merchants (and their URLs) where the product can be purchased"
+  def merchants do
+  end
+
+  @doc "Provides a list of URLs where the product is on sale"
+  def specials do
+  end
+end
+
+defmodule Things do
+  def all do
+  end
+
+  def count do
+  end
+
+  def by_name do
+  end
+
+  def by_upc do
+  end
+end
+
