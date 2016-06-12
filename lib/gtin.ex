@@ -1,30 +1,45 @@
-@doc "Global Trade Item Number (GS1)"
 defprotocol Thing.GTIN.Base do
-  @doc "returns the standardized format code of the GTIN"
-  def format
+  @moduledoc """
+  Global Trade Item Number (GS1)
+  """
 
-  def url
-  def measure
-  def units
+  #@doc "returns the standardized format code of the GTIN"
+  #def format
+
+  #def url
+  #def measure
+  #def units
 end
 
-@doc "8-digit number used predominately outside of North America"
 defmodule Thing.GTIN8 do
+  @moduledoc """
+  8-digit number used predominately outside of North America
+  """
+
   # defstruct
 end
 
-@doc "12-digit number used primarily in North America"
 defmodule Thing.GTIN12 do
+  @moduledoc """
+  12-digit number used primarily in North America
+  """
+
   # defstruct
 end
 
-@doc "13-digit number used predominately outside of North America"
 defmodule Thing.GTIN13 do
+  @moduledoc """
+  13-digit number used predominately outside of North America
+  """
+
   # defstruct
 end
 
-@doc "14-digit number used to identify trade items at various packaging levels"
 defmodule Thing.GTIN14 do
+  @moduledoc """
+  14-digit number used to identify trade items at various packaging levels
+  """
+
   # defstruct
 end
 

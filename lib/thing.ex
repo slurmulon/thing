@@ -1,6 +1,14 @@
-@doc "Represents a product, service or trade item that is available on the market"
 defmodule Thing do
-  defstruct id:, upc:, name:, packaging: nil, brand: nil, manufacturer: nil, gpc: nil, gtin: nil
+  @moduledoc """
+  Represents a product, service or trade item that is available on the market
+  """
+
+  #use Ecto.Schema
+
+  #schema "thing" do
+  #  field :upc
+  #  field :name
+  #end
 
   @doc "Provides a list of merchants (and their URLs) where the product can be purchased"
   def merchants do
