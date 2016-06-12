@@ -3,12 +3,12 @@ defmodule Thing do
   Represents a product, service or trade item that is available on the market
   """
 
-  #use Ecto.Schema
+  use Ecto.Schema
 
-  #schema "thing" do
-  #  field :upc
-  #  field :name
-  #end
+  schema "thing" do
+    field :upc
+    field :name
+  end
 
   @doc "Provides a list of merchants (and their URLs) where the product can be purchased"
   def merchants do
