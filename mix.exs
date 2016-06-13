@@ -21,9 +21,9 @@ defmodule Thing.Mixfile do
   end
 
   defp deps do
-     [{:ecto, "~> 2.0.0-beta"},
-     {:phoenix, "~> 1.1.4"},
-     {:cowboy, "~> 1.0"}]
+     [
+       {:phoenix, "~> 1.1.4"},
+     ]
   end
 
   defp description do
