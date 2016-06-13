@@ -1,4 +1,4 @@
-defmodule Thing do
+defmodule Thingy do
   @moduledoc """
   Represents a product, service or trade item that is available on the market
   """
@@ -19,7 +19,7 @@ defmodule Thing do
   end
 end
 
-defmodule Things do
+defmodule Thingies do
   def all do
   end
 
