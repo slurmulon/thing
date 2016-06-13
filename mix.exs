@@ -16,13 +16,13 @@ defmodule Thing.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:phoenix, :postgrex, :ecto, :poison, :logger]]
+    #[applications: [:phoenix, :postgrex, :ecto, :poison, :logger]]
+    [applications: [:phoenix, :ecto, :cowboy, :logger]]
   end
 
   defp deps do
-    [{:postgrex, ">= 0.0.0"},
-     {:ecto, "~> 2.0.0-beta"},
-     {:phoenix, "~> 1.2.0-rc.1"},
+     [{:ecto, "~> 2.0.0-beta"},
+     {:phoenix, "~> 1.1.4"},
      {:cowboy, "~> 1.0"}]
   end
 
