@@ -36,7 +36,7 @@ config :phoenix, :stacktrace_depth, 20
 config :thing, Thing.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
-  password: "iKe2Me3U",
+  password: "postgres",
   database: "thing_dev",
   hostname: "localhost",
   pool_size: 10
