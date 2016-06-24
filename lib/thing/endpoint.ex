@@ -33,7 +33,7 @@ defmodule Thing.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_thing_key",
-    signing_salt: "4djze+u8"
+    signing_salt: "aL1jkKo4"
 
   plug Thing.Router
 end
