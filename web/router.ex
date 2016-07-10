@@ -10,6 +10,7 @@ defmodule Thing.Router do
 
     scope "/v1", V1, as: :v1 do
       resources "/products", ProductController
+      resources "/brands", BrandController
     end
   end
 end
