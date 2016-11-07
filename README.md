@@ -1,4 +1,6 @@
 # Thing
+> :money_with_wings: International product information API for Elixir
+---
 
 To start your Phoenix app:
 
@@ -17,3 +19,9 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: http://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+## Roadmap
+
+ - [ ] GraphQL integration
+ - [ ] JSON Schema / Hyper-Schema
+ - [ ] POD Database conversion tool (parse `.csv` of fields, re-write `.sql with MapReduce)
